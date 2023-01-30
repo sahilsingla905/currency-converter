@@ -1,6 +1,13 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses:
+1. [React Table](https://www.npmjs.com/package/react-table)
+2. [Material Icons](https://mui.com/material-ui/icons/)
+3. [Fonts](https://fonts.google.com/?selected=Material+Icons)
+4. [Tailwind CSS](https://tailwindcss.com/)
+5. [React Moment](https://www.npmjs.com/package/react-moment)
+6. [React Router](https://reactrouter.com/en/main)
 
 ## Available Scripts
 
