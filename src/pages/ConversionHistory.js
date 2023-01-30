@@ -41,6 +41,10 @@ function ConversionHistory() {
       {
         Header: 'Date',
         accessor: 'date',
+        Cell: (props) => {
+          const displayFormat = moment(props.value).format("DD/MM/YYYY @ hh:mm");
+          return displayFormat;
+        },
       },
       {
         Header: 'Event',
