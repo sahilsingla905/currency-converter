@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 
-import { Navbar } from './Navbar';
+import { Navbar } from '../layout/Navbar';
 
 test('Navbar', () => {
   const navLinks = [{ path: 'fakepath', content: 'somecontent'}]

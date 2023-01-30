@@ -2,7 +2,7 @@ import React from "react";
 
 export const SelectOption = ({ label, value }) => {
   return (
-    <option value={value}>
+    <option data-testid="select-option" value={value}>
       {label}
     </option>
   );
