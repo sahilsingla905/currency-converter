@@ -1,0 +1,15 @@
+/* Border Colors */
+.border-primary-default {
+  @apply border-primary;
+}
+.border-primary-secondary {
+  @apply border-accent;
+}
+
+/* Text Colors */
+.text-primary-default {
+  @apply text-gray-dark;
+}
+.text-primary-secondary {
+  @apply text-accent;
+}

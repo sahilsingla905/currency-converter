@@ -1,0 +1,34 @@
+@tailwind base;
+h1 {
+  @apply text-5xl;
+  @apply font-bold;
+}
+h2 {
+  @apply text-2xl;
+  @apply font-bold;
+}
+/* h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600 underline;
+} */
+
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  @apply text-default;
+  @apply text-base;
+  @apply font-normal;
+}
+
+nav a.active {
+  border-bottom: 4px solid #009688;
+}
+
+tr.active .actions {
+  visibility: visible;
+}
