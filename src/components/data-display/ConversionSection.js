@@ -2,9 +2,9 @@ import { useState, useMemo } from "react";
 
 import CompareArrowsIcon from "@mui/icons-material/CompareArrows";
 
-import { InputField } from "../input-and-actions/InputField/InputField";
-import { SelectField } from "../input-and-actions/SelectField/SelectField";
-import { Button } from "../input-and-actions/Button/Button";
+import { InputField } from "../input-and-actions/InputField";
+import { SelectField } from "../input-and-actions/SelectField";
+import { Button } from "../input-and-actions/Button";
 
 import { useLocalStorage } from "../../hooks/useLocalStorage";
 import { isValidCurrency } from "../../utils/isValidCurrency";

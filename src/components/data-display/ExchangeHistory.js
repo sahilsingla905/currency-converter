@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 
 import moment from 'moment';
 
-import { SelectField } from "../input-and-actions/SelectField/SelectField";
+import { SelectField } from "../input-and-actions/SelectField";
 import { Table } from "./Table";
 
 import { isValidCurrency } from "../../utils/isValidCurrency";

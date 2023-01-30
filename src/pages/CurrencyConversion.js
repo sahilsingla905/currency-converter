@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import { ExchangeHistory } from "../components/data-display/ExchangeHistory";
 import { ConversionSection } from "../components/data-display/ConversionSection";
 
-
 export const CurrencyConversion = () => {
   let { from = "EUR", to = "INR", value = 1 } = useParams();
   const [toCurrency, setToCurrency] = useState(to);
@@ -36,13 +35,13 @@ export const CurrencyConversion = () => {
       default:
 
     }
-  }
+  };
 
   const handleCurrencySwap = () => {
-    const toVal = toCurrency;
+    const to = toCurrency;
     setToCurrency(fromCurrency);
-    setFromCurrency(toVal);
-  }
+    setFromCurrency(to);
+  };
 
   return (
     <>
