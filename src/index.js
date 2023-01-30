@@ -20,7 +20,6 @@ export default function Router() {
           <Route path="/">
             <Route path="history" element={<ConversionHistory />} />
             <Route path="conversion/:from?/:to?/:val?" element={<CurrencyConversion />} />
-            {/* <Route path="*" element={<App />} /> */}
           </Route>
         </Routes>
       </MainNavigation>
